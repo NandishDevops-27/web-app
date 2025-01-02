@@ -24,9 +24,11 @@
     # kubectl apply -f k8s/service.yaml
     # kubectl apply -f k8s/prometheus-deployment.yaml
 
-   for premothus setup we can use opened source/centralised repo
+esle
+
+   for premothus we can also setup opened source/centralised repo
      # helm repo add prometheus-community https://prometheus-community.github.io/helm-charts 
-    # helm install prometheus prometheus-community/prometheus
+     # helm install prometheus prometheus-community/prometheus
 
     Setting up Grfana:
     # helm repo add grafana https://grafana.github.io/helm-charts
