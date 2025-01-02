@@ -45,3 +45,5 @@ esle
 # Access the Premetheus dashboard
     kubectl get prometheus 
     <nodeip>:<nodeport> in browser
+    or 
+    localhost:9090 in browser
