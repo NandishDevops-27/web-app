@@ -1,0 +1,11 @@
+#base image
+FROM nginx:alpine
+
+#copy the neseccery files
+COPY ./static-page /usr/share/nginx/html
+
+#add the port that runs with your app
+EXPOSE 80
+
+#execute the cmd 
+CMD ["nginx", "-g", "deamon off;"]
